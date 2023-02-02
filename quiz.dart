@@ -120,7 +120,7 @@ class MyState2 extends State<QuizTwo> {
                 foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
               ),
               onPressed: () {
-                if (quiz2 == "Object oriented language" || quiz2 == "bike") {
+                if (quiz2 == "Object oriented language") {
                   score = score + 1;
                 }
                 Navigator.pushNamed(context, '/quiz3');
